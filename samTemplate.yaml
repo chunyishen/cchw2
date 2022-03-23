@@ -45,3 +45,5 @@ Resources:
               - 's3:ObjectCreated:*'
       Tags:
         'lambda-console:blueprint': s3-get-object-python
+  Bucket1:
+    Type: 'AWS::S3::Bucket'
