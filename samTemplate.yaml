@@ -19,11 +19,6 @@ Resources:
           Properties:
             Path: /search
             Method: GET
-        Api2:
-          Type: Api
-          Properties:
-            Path: /search
-            Method: GET
   lf1codepipeline:
     Type: 'AWS::Serverless::Function'
     Properties:
