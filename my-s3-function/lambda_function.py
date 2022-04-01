@@ -6,6 +6,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 from requests_aws4auth import AWS4Auth
 print('Loading function')
+#hi
 
 s3 = boto3.client('s3')
 service = 'es'
